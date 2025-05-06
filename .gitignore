@@ -5,11 +5,11 @@ gradle/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-*.bat
-*.xml
-gradlew
-settings.gradle
-.idea/
+**.bat
+**.xml
+/gradlew
+/settings.gradle
+/.idea/
 
 # Ignore build outputs
 /build/
