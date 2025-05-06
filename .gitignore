@@ -1,0 +1,36 @@
+.gradle
+build/
+gradle/
+*.log
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.bat
+*.xml
+gradlew
+settings.gradle
+.idea/
+
+# Ignore build outputs
+/build/
+/.gradle/
+
+# Ignore IDE-specific folders and files
+.idea/
+*.iml
+
+# Ignore logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore test reports (optional - if generated)
+test-output/
+reports/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore environment config files (if any)
+.env
